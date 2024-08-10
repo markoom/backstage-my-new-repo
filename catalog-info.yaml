@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-my-new-repo
+  annotations:
+    github.com/project-slug: markoom/backstage-my-new-repo
+spec:
+  type: other
+  lifecycle: unknown
+  owner: guests
